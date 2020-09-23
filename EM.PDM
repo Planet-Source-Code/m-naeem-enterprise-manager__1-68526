@@ -1,0 +1,162 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+Most Recent Deploy=Folder Deployment 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\NAEEM\EM_Install
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+Vb6stkit.dll=C:\WINNT\system32\Vb6stkit.dll
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado21.tlb=
+F:\Program Files\Microsoft Office\Office10\MSWORD.OLB=
+F:\Program Files\Common Files\System\ado\msado21.tlb=
+F:\WINDOWS\system32\urlmon.dll=
+E:\Program Files\Microsoft Office\Office10\MSWORD.OLB=
+E:\Program Files\Common Files\System\ado\msado21.tlb=
+E:\WINNT\system32\urlmon.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=
+C:\WINNT\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\scrrun.dll=
+F:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+F:\WINDOWS\system32\mscomctl.ocx=
+F:\WINDOWS\system32\scrrun.dll=
+E:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+E:\WINNT\system32\mscomctl.ocx=
+E:\WINNT\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\NAEEM\EM\EM.exe=Yes
+E:\WINNT\system32\msvbvm60.dll=Yes
+E:\WINNT\system32\oleaut32.dll=Yes
+E:\WINNT\system32\olepro32.dll=Yes
+E:\WINNT\system32\asycfilt.dll=Yes
+E:\WINNT\system32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\urlmon.dll=Yes
+E:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+E:\WINNT\system32\scrrun.dll=Yes
+E:\WINNT\system32\msvcrt.dll=Yes
+E:\Program Files\Microsoft Office\Office10\MSWORD.OLB=Yes
+E:\WINNT\system32\COMDLG32.OCX=Yes
+E:\WINNT\system32\mscomctl.ocx=Yes
+E:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\naeem\softwares\EM\Software\EM.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\NAEEM\EM\EM.exe=$(AppPath)
+F:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\urlmon.dll=$(WinSysPath)
+F:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+F:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+F:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Office\Office10\MSWORD.OLB=$(WinSysPath)
+F:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+F:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\urlmon.dll=$(WinSysPath)
+E:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+E:\WINNT\system32\scrrun.dll=$(WinSysPath)
+E:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Office\Office10\MSWORD.OLB=$(WinSysPath)
+E:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+E:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+E:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\naeem\softwares\EM\Software\EM.exe=No
+D:\NAEEM\EM\EM.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Enterprise Management System (naeem@email.com)
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Enterprise Management System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Enterprise Management System]
+Icon1=EM.exe
+Title1=Enterprise Management System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\NAEEM\EM_Install
+ProjectFolder=D:\NAEEM\EM
+ServerSideCab=
+File1=D:\NAEEM\EM_Install\setup.exe
+File2=D:\NAEEM\EM_Install\Setup.Lst
+File3=D:\NAEEM\EM_Install\EM.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment 1|Root]
+Package=Standard Setup Package 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=D:\NAEEM\EM_Install\deploy
